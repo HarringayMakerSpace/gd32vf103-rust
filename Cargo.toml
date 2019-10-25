@@ -1,0 +1,8 @@
+[package]
+name = "gd32vf103-rust"
+version = "0.1.0"
+
+[dependencies]
+gd32vf103-hal = "0.0.0"
+panic-halt = "0.2.0"
+hal = "0.4.4"
