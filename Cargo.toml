@@ -1,8 +1,19 @@
 [package]
 name = "gd32vf103-rust"
 version = "0.1.0"
+#authors = ["luojia65 <me@luojia.cc>"]
+#edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-gd32vf103-hal = "0.0.0"
-panic-halt = "0.2.0"
-hal = "0.4.4"
+riscv-rt = "0.6"
+panic-halt = "0.2"
+# gd32vf103-hal = {path = "../gd32vf103-hal", version = "0.0"}
+gd32vf103-hal = "*"
+
+# this lets you use `cargo fix`!
+[[bin]]
+name = "gd32vf103-rust"
+test = false
+bench = false

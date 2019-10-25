@@ -3,10 +3,10 @@
 
 extern crate panic_halt;
 
-use riscv_rt::entry;
 use gd32vf103_hal as hal;
+use hal::pac;
 use hal::prelude::*;
-use hal::pac as pac;
+use riscv_rt::entry;
 
 #[entry]
 fn main() -> ! {
