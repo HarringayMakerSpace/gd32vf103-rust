@@ -1,5 +1,7 @@
 # Minimal example of running Rust on Sipeed Longan Nano RISC-V Dev board
 
+Dev board: https://www.seeedstudio.com/Sipeed-Longan-Nano-RISC-V-GD32VF103CBT6-Development-Board-p-4205.html
+
 See: https://pramode.in/2019/10/07/rust-on-riscv-board-sipeed-longan-nano/
 
 Rust Crate: https://crates.io/crates/gd32vf103-hal
